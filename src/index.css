@@ -11,3 +11,118 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --container-padding-left : 1.5em;
+  --container-padding-right : 1.5em;
+  --container-border-radius : .9em;
+  --theme-primary-btn-padding : .8em 1.4em;
+  --theme-primary-btn-label-font : 1.3em;
+  --theme-primary-btn-label-font-hover : 1.2em;
+  --theme-primary-btn-border-radius : 50px;
+  --theme-primary-btn-bg : white;
+  --theme-primary-btn-bg-hover : #d3d3d3;
+  --theme-primary-btn-color : black;
+  --theme-primary-color : #F5F6F8;
+  --base-font : 1em;
+  --menu-font : 1em;
+  --font-600 : 1.5em;
+  --font-400 : .9em;
+}
+
+.container__fit {
+  width : 100%;
+  padding-left : var(--container-padding-left);
+  padding-right: var(--container-padding-right);
+}
+
+.wrapper {
+  display : flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub__heading {
+  font-size: var(--font-600);
+}
+
+.weight-500 {
+  font-weight: 500;
+}
+
+.weight-600 {
+  font-weight: 600;
+}
+
+
+.primary__btn {
+  padding : var(--theme-primary-btn-padding);
+  background-color: var(--theme-primary-btn-bg);
+  border-radius: var(--theme-primary-btn-border-radius);
+  font-size: var(--theme-primary-btn-label-font);
+  color : var(--theme-primary-btn-color);
+  transition: background-color ease-in 250ms, font-size ease-in 250ms;
+}
+
+.primary__btn:hover {
+  background-color : var(--theme-primary-btn-bg-hover);
+  font-size: var(--theme-primary-btn-label-font-hover);
+}
+
+.h-10\.5\% {
+  height : 10.5%
+}
+
+.h-30\% {
+  height : 30%
+}
+
+.h-39\% {
+  height : 39%;
+}
+
+.h-71\% {
+  height : 71%
+}
+
+
+@media (max-width : 1025px) {
+  .xl\:h-28\% {
+    height : 28%
+  }
+  .xl\:h-37\.5\% {
+    height : 37.5%
+}
+}
+
+@media (max-width : 992px ){
+  :root {
+    --theme-primary-btn-label-font : 1em;
+    --font-400 : .8em;
+    --menu-font : .8em;
+  }
+  
+}
+
+@media (max-width : 640px ){
+  :root {
+    --base-font : .8em;
+    --menu-font : .7em;
+    --font-600 : 1em;
+    --font-400 : .7em;
+    
+    --container-padding-left : 1em;
+  --container-padding-right : 1em;
+  }
+
+  .sm\:h-8\% {
+    height : 8%
+  }
+  .sm\:h-79\% {
+    height : 79%
+  }
+}
+
