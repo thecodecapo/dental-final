@@ -23,6 +23,7 @@ code {
   --theme-primary-btn-padding : .8em 1.4em;
   --theme-primary-btn-label-font : 1.3em;
   --theme-primary-btn-label-font-hover : 1.2em;
+  --theme-form-border-radius : 5px;
   --theme-primary-btn-border-radius : 50px;
   --theme-primary-btn-bg : white;
   --theme-primary-btn-bg-hover : #d3d3d3;
@@ -87,12 +88,28 @@ code {
 .h-71\% {
   height : 71%
 }
+.h-32\%{
+  height : 32%
+}
+.h-33\.5\%{
+  height : 33.5%
+} 
+.h-34\%{
+  height : 34%
+}
+
+.h-35\%{
+  height : 35%
+} 
 
 
 @media (max-width : 1025px) {
   .xl\:h-28\% {
     height : 28%
   }
+  .xl\:h-33\.5\% {
+    height : 33.5%
+}
   .xl\:h-37\.5\% {
     height : 37.5%
 }
@@ -105,6 +122,21 @@ code {
     --menu-font : .8em;
   }
   
+  .t\:h-30\% {
+    height : 30%;
+  }
+
+  .t\:h-32\%{
+    height : 32%
+}
+
+.t\:h-33\% {
+    height : 33%
+}
+
+.t\:h-40\% {
+    height : 40%
+}
 }
 
 @media (max-width : 640px ){
@@ -126,3 +158,12 @@ code {
   }
 }
 
+@media (max-width : 428px ){
+  .xxs\:h-43\% {
+    height : 43%;
+}
+
+.xxs\:h-30\% {
+    height : 30%
+}
+}

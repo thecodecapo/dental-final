@@ -1,23 +1,44 @@
-
 .hero__outer-wrapper {
-    background-image: url('../images/hero.jpg');
-    background-position: center right;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width : 100%;
-    height : 89vh;
-    border-radius : var(--container-border-radius);
-    border-collapse: collapse;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 44em;
+  border-radius: var(--container-border-radius);
+  border-collapse: collapse;
+}
+
+.hero__outer-wrapper > div .content__outer-wrapper {
+  background-image: url("https://ik.imagekit.io/gunadev/Dental/hero.jpg?updatedAt=1722359889954");
+  background-position: center right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero__outer-wrapper > div:nth-of-type(1) .content__outer-wrapper {
+  background-position: 0 -3.85em;
+}
+
+.hero__outer-wrapper > div:nth-of-type(2) .content__outer-wrapper {
+  background-position: 0 -7.1255em;
+}
+
+.hero__outer-wrapper > div:nth-of-type(3) .content__outer-wrapper {
+  background-position: 0 -10.501em;
+}
+
+.hero__outer-wrapper > div:nth-of-type(4) .content__outer-wrapper {
+  background-position: 0 -13.8765em;
 }
 
 .hero__bottom-container {
-  display : flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .hero__bottom-wrapper-last {
-  display : flex;
+  display: flex;
   flex-direction: column;
   align-items: end;
   justify-content: space-between;
@@ -26,61 +47,149 @@
 .fancy__text {
   font-size: 10em;
   font-weight: 600;
-  line-height: .75em;
-  position : relative;
+  line-height: 0.75em;
+  position: relative;
 }
 
 .fancy__text::before {
-    content : 'Trusted Dentist in India';
-    font-size: .08em;
-    display: block;
-    position : absolute;
-    bottom : 85%;
-    left : 0
-  }
+  content: "Trusted Dentist in India";
+  font-size: 0.08em;
+  display: block;
+  position: absolute;
+  bottom: 85%;
+  left: 0;
+}
 
 .label_tag {
-    font-size: .8em;
+  font-size: 0.8em;
 }
 
 .hero__tagline {
-    font-weight: 600;
-    padding : .6em 0;
-    font-size: var(--base-font);
+  font-weight: 600;
+  padding: 0.6em 0;
+  font-size: var(--base-font);
 }
 
-
-@media (max-width : 1248px){
-  
+@media (max-width: 1248px) {
   .hero__outer-wrapper {
-    height : 85vh;
+    height: 40em;
   }
-   
+
+  .hero__outer-wrapper > div .content__outer-wrapper {
+    background-position: center;
+    background-size: 95em;
+  }
+
+  .hero__outer-wrapper > div:nth-of-type(1) .content__outer-wrapper {
+    background-position: -20em -4.75em;
+  }
+
+  .hero__outer-wrapper > div:nth-of-type(2) .content__outer-wrapper {
+    background-position: -20em -9.1255em;
+  }
+
+  .hero__outer-wrapper > div:nth-of-type(3) .content__outer-wrapper {
+    background-position: -20em -12.501em;
+  }
+
+  .hero__outer-wrapper > div:nth-of-type(4) .content__outer-wrapper {
+    background-position: -20em -15.8765em;
+  }
 }
 
+@media (max-width: 1024px) {
+  .hero__outer-wrapper {
+    height: 50em;
+  }
 
+  .hero__outer-wrapper > div .content__outer-wrapper {
+    background-position: center;
+    background-size: 92em;
+  }
 
-@media (max-width : 992px ){
+  .hero__outer-wrapper > div:nth-of-type(1) .content__outer-wrapper {
+    background-position: -20em -4.75em;
+  }
+
+  .hero__outer-wrapper > div:nth-of-type(2) .content__outer-wrapper {
+    background-position: -20em -8.1255em;
+  }
+
+  .hero__outer-wrapper > div:nth-of-type(3) .content__outer-wrapper {
+    background-position: -20em -11.501em;
+  }
+
+  .hero__outer-wrapper > div:nth-of-type(4) .content__outer-wrapper {
+    background-position: -20em -14.8765em;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero__outer-wrapper {
+    height: 40em;
+  }
+
+  .hero__outer-wrapper > div .content__outer-wrapper {
+    background-position: center;
+    background-size: 92em;
+  }
+
+  .hero__outer-wrapper > div:nth-of-type(1) .content__outer-wrapper {
+    background-position: -30em -4.75em;
+  }
+
+  .hero__outer-wrapper > div:nth-of-type(2) .content__outer-wrapper {
+    background-position: -30em -8.1255em;
+  }
+
+  .hero__outer-wrapper > div:nth-of-type(3) .content__outer-wrapper {
+    background-position: -30em -11.501em;
+  }
+
+  .hero__outer-wrapper > div:nth-of-type(4) .content__outer-wrapper {
+    background-position: -30em -14.8765em;
+  }
 
   .fancy__text {
     font-size: 6em;
     font-weight: 600;
-    line-height: .75em;
-    position : relative;
+    line-height: 0.75em;
+    position: relative;
   }
-  
-
 
   .hero__bottom-wrapper {
     row-gap: 2em;
   }
-
 }
 
-@media (max-width : 640px){
+@media (max-width: 640px) {
+  .hero__outer-wrapper {
+    height: 50em;
+  }
+
+  .hero__outer-wrapper > div .content__outer-wrapper {
+    background-position: center;
+    background-size: 100em;
+  }
+
+  .hero__outer-wrapper > div:nth-of-type(1) .content__outer-wrapper {
+    background-position: -65em -5.75em;
+  }
+
+  .hero__outer-wrapper > div:nth-of-type(2) .content__outer-wrapper {
+    background-position: -65em -8.1255em;
+  }
+
+  .hero__outer-wrapper > div:nth-of-type(3) .content__outer-wrapper {
+    background-position: -65em -10.501em;
+  }
+
+  .hero__outer-wrapper > div:nth-of-type(4) .content__outer-wrapper {
+    background-position: -65em -12.8765em;
+  }
 
   .hero__bottom-wrapper {
-    row-gap : 2em;
+    row-gap: 2em;
   }
 
   .hero__bottom-container {
@@ -88,40 +197,51 @@
   }
 
   .hero__fancy-text-wrapper {
-    display : flex;
+    display: flex;
     justify-content: center;
   }
 
   .hero__bottom-wrapper-last {
-    display : flex;
+    display: flex;
     flex-direction: column;
-    row-gap : 2em;
+    row-gap: 2em;
     align-items: center;
     justify-content: space-between;
   }
 
   .hero__top-wrapper {
-    display : none;
+    display: none;
   }
-  
+}
+
+@media (max-width: 428px) {
   .hero__outer-wrapper {
-    height : 90vh;
-}
+    height: 40em;
+  }
 
-}
+  .hero__outer-wrapper > div:nth-of-type(1) .content__outer-wrapper {
+    background-position: -70em -5.75em;
+  }
 
-@media (max-width : 428px){
+  .hero__outer-wrapper > div:nth-of-type(2) .content__outer-wrapper {
+    background-position: -70em -8.1255em;
+  }
+
+  .hero__outer-wrapper > div:nth-of-type(3) .content__outer-wrapper {
+    background-position: -70em -10.501em;
+  }
+
+  .hero__outer-wrapper > div:nth-of-type(4) .content__outer-wrapper {
+    background-position: -70em -12.8765em;
+  }
 
   .hero__sub-heading {
-    color : white
+    color: white;
   }
-
 }
 
-@media (max-width : 340px){
-  
-
+@media (max-width: 340px) {
   .fancy__text {
-    font-size : 5.5em
+    font-size: 5.5em;
   }
 }

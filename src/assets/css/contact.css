@@ -4,13 +4,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     width : 100%;
-    height : 89vh;
+    min-height : 44em;
     border-radius : var(--container-border-radius);
     border-collapse: collapse;
 }
 
 .top__wrapper-contact {
-    background-image: url('../images/contactgraphic.jpg');
+    background-image: url('https://ik.imagekit.io/gunadev/Dental/contactgraphic.jpg?updatedAt=1722359794501');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,3 +22,109 @@
     font-weight: 600;
   line-height: .75em;
 }
+
+.form__container {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.field {
+    padding : .9em;
+    border : 1px solid #3b3b3b;
+    background-color: transparent;
+    border-radius: var(--theme-form-border-radius);
+    color: white;
+    outline: none;
+    min-width : 200px;
+    width: fit-content;
+}
+
+.field__container {
+    position : relative;
+    transition: 0.5s;
+}
+
+.field__label {
+    position : absolute;
+    left : 1em;
+    top : -.6em;
+    color: #b2b2b2;
+    background-color: black;
+    padding: 0 .4em;
+    font-size: .9em;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+
+.field__container input:valid ~ span, .field__container input:focus ~ span {
+    color : white;
+    background-color: black;
+}
+
+.field__container input:valid , .field__container input:focus {
+    border : 1px solid white;
+}
+
+.form__submit {
+    width : 200px;
+}
+
+@media (max-width : 1024px ){
+    .top__wrapper-contact {
+        background-size: 70em;
+
+    }
+
+    .contact__outer-wrapper {
+        min-height: 60em;
+    }
+
+    .fancy__contacttext {
+        font-size: 8em;
+    }
+
+    .form__container {
+        flex-direction: column;
+        gap : 1em;
+        align-items: unset;
+    }
+
+    .field {
+       
+        min-width : 200px;
+        width: 100%;
+    }
+}
+
+@media (max-width : 992px ){
+    .top__wrapper-contact {
+        background-size: 60em;
+  
+    }
+
+    .contact__outer-wrapper {
+        min-height: 55em;
+    }
+
+}
+
+@media (max-width : 640px ){
+
+    .top__wrapper-contact {
+        background-size: 40em;
+    }
+
+    .contact__outer-wrapper {
+        min-height: 50em;
+    }
+
+    .fancy__contacttext {
+        font-size: 6em;
+    }
+
+
+}
+

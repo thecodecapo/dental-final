@@ -1,13 +1,28 @@
 .gallery__outer-wrapper {
-    background-image: url('../images/gallerybanner.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-color: white;
     width : 100%;
-    height : 89vh;
+    height : 44em;
     border-radius : var(--container-border-radius);
     border-collapse: collapse;
 }
+
+
+.gallery__outer-wrapper > div .gallery__content-outer-wrapper {
+  background-image: url('https://ik.imagekit.io/gunadev/Dental/gallerybanner.jpg?updatedAt=1722358544120');
+  background-position: center;
+  background-size: 90em;
+  background-repeat: no-repeat;
+}
+
+.gallery__outer-wrapper > div:nth-of-type(1) .gallery__content-outer-wrapper {
+  background-position: 0 -3.85em;;
+}
+
+.gallery__outer-wrapper > div:nth-of-type(2) .gallery__content-outer-wrapper {
+  background-position: 0 -35.675em;
+}
+
+
 
 .fancy__gallerytext {
     font-size: 8em;
@@ -99,6 +114,24 @@
 }
 }
 
+@media (max-width : 1024px ){
+  .gallery__outer-wrapper > div .gallery__content-outer-wrapper {
+    background-size: 80em;
+    background-repeat: no-repeat;
+  }
+  
+  .gallery__outer-wrapper > div:nth-of-type(1) .gallery__content-outer-wrapper {
+    background-position: -10em -3.85em;;
+  }
+  
+  .gallery__outer-wrapper > div:nth-of-type(2) .gallery__content-outer-wrapper {
+    background-position: -10em -35.675em;
+  }
+
+
+  
+}
+
 @media (min-width : 1024px ){
   .swiper-slide {
     width : 280px !important
@@ -107,10 +140,18 @@
 
 @media (max-width : 992px ){
 
-  .gallery__outer-wrapper {
-    background-position: center left;
+  .gallery__outer-wrapper > div .gallery__content-outer-wrapper {
+    background-size: 80em;
+    background-repeat: no-repeat;
+  }
   
-}
+  .gallery__outer-wrapper > div:nth-of-type(1) .gallery__content-outer-wrapper {
+    background-position: -20em -3.85em;;
+  }
+  
+  .gallery__outer-wrapper > div:nth-of-type(2) .gallery__content-outer-wrapper {
+    background-position: -20em -35.675em;
+  }
 
   .gallery__wrapper-right{
     display : none;
@@ -127,17 +168,6 @@
     height : fit-content
   }
 
-  .t\:hidden {
-    display : none
-  }
-
-  .t\:visible {
-    display : block;
-  }
-  .t\:visible-flex {
-    display : flex;
-  }
-
   .resp__text-color {
     color : black
   }
@@ -146,8 +176,20 @@
 
 @media (max-width : 640px ){
   .gallery__outer-wrapper {
-    background-position: center;
-    height : 90vh;
+    height : 50em;
+}
+
+.gallery__outer-wrapper > div .gallery__content-outer-wrapper {
+  background-size: 80em;
+  background-repeat: no-repeat;
+}
+
+.gallery__outer-wrapper > div:nth-of-type(1) .gallery__content-outer-wrapper {
+  background-position: -30em -3.85em;;
+}
+
+.gallery__outer-wrapper > div:nth-of-type(2) .gallery__content-outer-wrapper {
+  background-position: -30em -35.675em;
 }
 
 .fancy__gallerytext {
@@ -158,11 +200,24 @@
 }
 
 @media (max-width : 428px ){
+
   .gallery__outer-wrapper {
-    background-position: center top;
-    background-size: 90em;
-    height : 90vh;
-}
+    height : 40em;
+  }
+
+  .gallery__outer-wrapper > div .gallery__content-outer-wrapper {
+    background-size: 80em;
+    background-repeat: no-repeat;
+  }
+  
+  .gallery__outer-wrapper > div:nth-of-type(1) .gallery__content-outer-wrapper {
+    background-position: -30em -3.85em;;
+  }
+  
+  .gallery__outer-wrapper > div:nth-of-type(2) .gallery__content-outer-wrapper {
+    background-position: -30em -35.675em;
+  }
+ 
   .fancy__gallerytext {
     font-size: 4em;
    margin-top : 1em;
@@ -177,7 +232,5 @@
   .resp__text-color {
     color : black
   }
-  .xxs\:h\-30\% {
-    height : 30%
-}
+ 
 }
