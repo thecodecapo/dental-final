@@ -33,9 +33,9 @@ function Gallery() {
                       If you want a gorgeous smile, <br /> call us to ask about
                       a smile makeover.
                     </label>
-                    <button className="primary__btn w-fit weight-600">
+                    <a href="tel:+1234567890"><button className="primary__btn w-fit weight-600">
                       Call Us
-                    </button>
+                    </button></a>
                   </div>
                 </Reveal>
               </div>
@@ -57,7 +57,7 @@ function Gallery() {
                   If you want a gorgeous smile, <br /> call us to ask about a
                   smile makeover.
                 </label>
-                <button className="primary__btn weight-600">Call Us</button>
+                <a href="tel:+1234567890"><button className="primary__btn weight-600">Call Us</button></a>
               </div>
               </Reveal>
             </div>

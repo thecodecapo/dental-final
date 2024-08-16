@@ -37,7 +37,7 @@ function Hero() {
                             </div>
                             <div className="flex flex-col text-end">
                                 <label className="label_tag text-white mb-[1.8em]">Free Consultation</label>
-                                <button className="primary__btn weight-600">Book Online</button>
+                                <a href="#contact"><button className="primary__btn weight-600">Book Online</button></a>
                             </div>
                         </div>
                     </div>

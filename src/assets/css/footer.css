@@ -1,8 +1,26 @@
 .footer__outer-wrapper {
     display : flex;
+    flex-direction: column;
+}
+
+.footer__main-wrapper {
+    display : flex;
     gap : 10px;
     justify-content: space-between;
     align-items: center;
+}
+
+.footer__app-link-wrapper {
+    padding : 1em 0;
+    width : 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap : 1em;
+}
+
+.play__button {
+    width : 8em;
 }
 
 .footer__menu-container {
@@ -33,7 +51,7 @@
 }
 
 .copyright__label::after {
-    content : "All rights reserved."
+    content : " All rights reserved."
 }
 
 .footer__menu-item {
@@ -58,9 +76,13 @@
 }
 
 @media (max-width : 640px ){
-    .footer__outer-wrapper {
+    .footer__main-wrapper {
         flex-direction: column;
 
+    }
+
+    .footer__app-link-wrapper {
+        justify-content: center;
     }
 
     .footer__menu-container {

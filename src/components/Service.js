@@ -29,7 +29,7 @@ function Service() {
                             <div className="sub__heading-service-wrapper-400">
                             <label className="sub__heading weight-500">Dental Restoration Services</label>
                             </div>
-                            <button className="primary__btn weight-600">Book Online</button>
+                            <a href="#contact"><button className="primary__btn weight-600">Book Online</button></a>
                         </div>
                         <div className=" w-full h-[150px] hide t:visible-flex justify-between">
                         {services.map((service,index) => (
@@ -38,7 +38,7 @@ function Service() {
                                <label className="sub__heading">{service.text}</label>
                                </div>
                                <div className="w-full flex justify-end pr-[10px]">
-                               <label className="card__service-arrow">&#8963;</label>
+                               <label className="card__service-arrow">{index+1}</label>
                                </div>
                             </div>
                         ))}
@@ -50,14 +50,14 @@ function Service() {
                 <Reveal className="h-[101%] w-full t:hide visible-flex" delay={0.35}>
                 <div className="h-full w-full wrapper__border-left outer__wrapper-right  flex items-end p-[1em]">
                 <Reveal className="h-[150px] w-full" delay={0.35}>
-                    <div className="flex w-full  justify-between">
+                    <div className="flex h-full w-full  justify-between">
                         {services.map((service,index) => (
                             <div className="service__card-wrapper p-[.8em] h-full w-[48%] flex flex-col justify-between" data-key={index} key={index}>
                                 <div className="sub__heading-service-wrapper-600">
                                <label className="sub__heading">{service.text}</label>
                                </div>
                                <div className="w-full flex justify-end pr-[10px]">
-                               <label className="card__service-arrow">&#8963;</label>
+                               <label className="card__service-arrow">{index+1}</label>
                                </div>
                             </div>
                         ))}

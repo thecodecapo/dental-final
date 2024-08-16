@@ -71,8 +71,7 @@
 }
 
 .card__service-arrow {
-    rotate: 90deg;
-    font-size: 1.5em;
+    font-size: .8em;
     color : white;
     position : relative
 }
@@ -82,17 +81,20 @@
 }
 
 .card__service-arrow::before {
+    content: '0';
+}
+
+.card__service-arrow::after {
     content : '';
-    height : 30px;
-    width : 30px;
+    padding : .9em .9em;
     position : absolute;
-    top : 0;
-    left:-20%;
+    top : -2px;
+    left:-25%;
     border : 1px solid white;
     border-radius: 50px;
 }
 
-.service__card-wrapper[data-key="0"]:has(.card__service-arrow) .card__service-arrow::before {
+.service__card-wrapper[data-key="0"]:has(.card__service-arrow) .card__service-arrow::after {
     border : 1px solid black;
 }
 
@@ -147,6 +149,10 @@
     .service__outer-wrapper {
         height : 50em;
         
+    }
+
+    .card__service-arrow {
+        font-size: .8em;
     }
 
 

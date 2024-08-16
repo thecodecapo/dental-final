@@ -70,6 +70,7 @@
 
 .form__submit {
     width : 200px;
+    cursor: pointer;
 }
 
 @media (max-width : 1024px ){

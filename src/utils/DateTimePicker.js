@@ -6,7 +6,7 @@ import TextField from '@mui/material/TextField';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import dayjs from 'dayjs';
 
-// Create a dark theme
+
 const darkTheme = createTheme({
     palette: {
       mode: 'dark',
@@ -31,7 +31,8 @@ export default function DateTimePickerComponent() {
     <LocalizationProvider dateAdapter={AdapterDayjs}>
       <DateTimePicker
         label="Pick a Date & Time"
-        name="datetime"
+        name="Date & Time"
+        disablePast
         value={value}
         onChange={handleChange}
         renderInput={(params) => <TextField {...params} />}
