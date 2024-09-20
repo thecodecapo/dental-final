@@ -61,7 +61,7 @@ Step 7 : Move all the files in build directory to website's root directory
 mv * /var/www/drtsdentalcare.com/
 ```
 
-Step 8 : Now go to website's root directory & verify all the files were moved, if yes then remove the git_repo_name directory keeping all other build files
+Step 8 : Now go to website's root directory & verify all the files, if everything looks good then remove the git_repo_name directory keeping all other build files
 
 ```bash
 cd /var/www/drtsdentalcare.com
