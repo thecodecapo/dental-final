@@ -4,7 +4,7 @@ This website was developed using React framework, and all the media files were b
 
 # Installation
 
-Here are the steps to run this project in local environment
+## Steps to run this project in local environment
 
 Step 1 : Clone this repo using "git clone repo_url" in your terminal
 
@@ -19,7 +19,7 @@ Step 3 : Command to run the website in local environment
 npm start
 ```
 
-Guide to Deploy the website on to the server
+## Guide to Deploy the website on to the server
 
 [ assuming you have successfully installed dependencies, if not follow above steps ]
 
