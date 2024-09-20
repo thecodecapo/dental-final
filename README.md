@@ -6,7 +6,11 @@ This website was developed using React framework, and all the media files were b
 
 ## Steps to run this project in local environment
 
-Step 1 : Clone this repo using "git clone repo_url" in your terminal
+Step 1 : Clone this repo using your terminal
+
+```bash
+git clone repo_url
+```
 
 Step 2 : Run following command to install all the dependencies 
 ```bash
@@ -44,7 +48,8 @@ pwd
 ```
 
 Step 5 : Now clone the git repo where the source code is already available ( note : remove '/build' in '.gitignore' cause we need build files to be uploaded onto git )
-Step 6 : Verify whether the files are cloned correclty and go to build directory, you should see '{git_repo_name}'
+
+Step 6 : Verify whether the files are cloned correclty and go to build directory, you should see 'git_repo_name'
 
 ```bash
 cd git_repo_name/build/
