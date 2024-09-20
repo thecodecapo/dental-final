@@ -72,6 +72,6 @@ End
 
 Check the site is working properly or not by visiting [website](https://drtsdentalcare.com). Congrats you have successfully deployed the website onto the server.
 
-Note :  *You can copy build files onto the server using SSH or git, since you are full aware of git We proceeded with git ( recommended process - SSH )
+Note :  *You can copy build files onto the server using SSH or git, assuming you aren't aware of SSH, we have proceeded with git in this Guide. ( recommended process - SSH )
 
 
