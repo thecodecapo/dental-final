@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode } from "swiper/modules";
+import { FreeMode, Autoplay } from "swiper/modules";
 import cards from "../data/cards.json";
 import "swiper/css";
 
@@ -12,9 +12,13 @@ function Cards() {
           spaceBetween={20}
           slidesPerView="auto"
           loop = {true}
-          modules={[FreeMode]}
+          modules={[FreeMode, Autoplay]}
           onSlideChange={() => {
             console.log("Slide Changed");
+          }}
+          autoplay={{ // Autoplay settings
+            delay: 3000, // Time between slides in ms (3000ms = 3 seconds)
+            disableOnInteraction: false, // Keep autoplay running even after user interaction
           }}
           onSwiper={(swiper) => {
             console.log(swiper);
@@ -27,8 +31,12 @@ function Cards() {
                   <label className="card__title weight-500">
                     {card.text}
                   </label>
+                  <br /> 
+                  <label className="card__sub-text">
+                    {card.subtext}
+                  </label>
                 </div>
-                <div className="w-full flex justify-end pr-2 pb-2">
+                <div className="w-full flex justify-end pr-2 pb-2 hidden">
                     <label className="card__counter">{index+1}</label>
                 </div>
               </div>

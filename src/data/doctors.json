@@ -1,0 +1,16 @@
+[
+    {
+        "image" : "https://ik.imagekit.io/gunadev/Dental/Dr.Sujal_Patel.PNG?updatedAt=1726586602076",
+        "name" : "Dr. Sujal Patel",
+        "designation" : "(M.D.S) Prosthodontist",
+        "description" : "Prosthodontics expert with vast experience in handling complex and critical cases involving full mouth rehabilitation, implants and crown. Always focussed on creating natural-looking restorations, helping patients regain confidence through custom implants, crowns, bridges and dentures. As a certified Prosthodontist, provides cutting-edge dental solutions, from implant dentistry to advanced prosthetics, designed to restore and enhance your smile."
+        
+    },
+    {
+        "image" : "https://ik.imagekit.io/gunadev/Dental/Dr.Tulsi_Patel.PNG?updatedAt=1726586601766",
+        "name" : "Dr. Tulasi Patel",
+        "designation" : "(M.D.S) Endodontist",
+        "description" : "Endodontics expert with mastery in single sitting complex Root Canal procedures and tooth conservation. Specialized in Minimally Invasive Techniques for Effective Tooth Preservation. Saving Teeth with Precision-Driven Endodontic Procedures and Advanced Care. Providing Superior Endodontic Care for Long-Lasting Dental Wellness."
+        
+    }
+]

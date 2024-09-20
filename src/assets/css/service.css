@@ -32,6 +32,14 @@
 .sub__heading {
     line-height: .4em;
 }
+ 
+.sub__tagline {
+    color : #686767;
+    font-size : .9em;
+    line-height: .9em;
+    padding-top : .5em;
+}
+
 
 .sub__heading-service-wrapper-400{
     inline-size: 20px;
@@ -58,17 +66,28 @@
     overflow-wrap: break-word;
 }
 
+.service-swiper-slide {
+  width : 300px !important;
+  height : 100% ;
+  border-radius: var(--container-border-radius);
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+  padding : 0;
+}
+
 .service__card-wrapper {
     background-color : rgb(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
+    width : 100%;
     border-radius: 10px;
-    color : white;
+    color : black;
 }
 
-.service__card-wrapper[data-key="0"] {
+/* .service__card-wrapper[data-key="0"] {
     background-color: white;
     color:black;
 }
+    */
 
 .card__service-arrow {
     font-size: .8em;
@@ -128,7 +147,9 @@
     }
 
     .service__card-wrapper {
-        background-color : rgb(0, 0, 0, 0.2);
+     /*   background-color : rgb(0, 0, 0, 0.2); */
+     background-color : #ffffff;
+  
     }
 
     

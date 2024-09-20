@@ -1,8 +1,34 @@
 [
     {
-        "text" : "The Process of Installing Implants"
+        "text" : "Full Mouth Rehabilitation",
+        "subtext" : "Precision in Every Tooth, Crafting Perfect Smiles"
     },
     {
-        "text" : "Caring for Dental Implants"
+        "text" : "Dental Implant",
+        "subtext" : "Restore Missing Teeth and Improve Your Oral Health"
+    },
+    {
+        "text" : "Bone Grafting",
+        "subtext" : "Strengthen Bone For Implants"
+    },
+    {
+        "text" : "Inlays & Onlays",
+        "subtext" : "Restorations For Damaged Teeths"
+    },
+    {
+        "text" : "Maxillofacial Prosthetics",
+        "subtext" : "Rehabilitation of Facial Structures"
+    },
+    {
+        "text" : "Teeth Grinding Solutions",
+        "subtext" : "Relief from Bruxism"
+    },
+    {
+        "text" : "Occlusal Adjustment",
+        "subtext" : "Correct Bite for Better Function"
+    },
+    {
+        "text" : "Post & Core Treatment",
+        "subtext" : "Rebuild Severely Damaged Teeth"
     }
 ]

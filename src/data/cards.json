@@ -1,27 +1,39 @@
 [
     {
-        "text" : "Dental Veeners"
+        "text" : "Micro Endodontics",
+        "subtext" : "Precision Root Canal"
     },
     {
-        "text" : "Dental Crowns"
+        "text" : "Teeth Whitening",
+        "subtext" : "Brighten & Revitalize teeth"
     },
     {
-        "text" : "Teeth Whitening"
+        "text" : "Veneers and Crowns",
+        "subtext" : "Natural, Durable Tooth Restoration"
     },
     {
-        "text" : "Dental Implants"
+        "text" : "Dentures - Full/Partial",
+        "subtext" : "Custom Fit, Comfortable Solutions"
     },
     {
-        "text" : "Dental Veeners"
+        "text" : "Gum Disease Treatment",
+        "subtext" : "Advanced Care for Healthy Gums"
     },
     {
-        "text" : "Dental Crowns"
+        "text" : "Tooth Extractions",
+        "subtext" : "Safe, Pain-free Tooth Removal"
     },
     {
-        "text" : "Teeth Whitening"
+        "text" : "TMJ Treatment",
+        "subtext" : "Relieve Jaw Pain & Discomfort"
     },
     {
-        "text" : "Dental Implants"
+        "text" : "Bone Grafting",
+        "subtext" : "Strengthen Bone For Implants"
+    },
+    {
+        "text" : "Invisalign",
+        "subtext" : "Clear Aligners For Straight Teeth"
     }
-    
+     
 ]

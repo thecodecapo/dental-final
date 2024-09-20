@@ -45,14 +45,14 @@
 }
 
 .fancy__text {
-  font-size: 10em;
+  font-size: 8em;
   font-weight: 600;
   line-height: 0.75em;
   position: relative;
 }
 
 .fancy__text::before {
-  content: "Trusted Dentist in India";
+  content: "Perfect Restoration";
   font-size: 0.08em;
   display: block;
   position: absolute;
@@ -151,7 +151,7 @@
   }
 
   .fancy__text {
-    font-size: 6em;
+    font-size: 4.5em;
     font-weight: 600;
     line-height: 0.75em;
     position: relative;
@@ -242,6 +242,6 @@
 
 @media (max-width: 340px) {
   .fancy__text {
-    font-size: 5.5em;
+    font-size: 3.5em;
   }
 }

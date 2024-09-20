@@ -1,40 +1,92 @@
 .header {
-    --primary-btn-border : 1px solid black;
-    --primary-btn-label-color : #000000;
-    --primary-btn-label-font : .8em;
-    --primary-btn-padding : .8em 1.4em;
-    --primary-btn-border-radius : 50px;
+  --primary-btn-border: 1px solid black;
+  --primary-btn-label-color: #000000;
+  --primary-btn-label-font: 0.8em;
+  --primary-btn-padding: 0.8em 1.4em;
+  --primary-btn-border-radius: 50px;
 }
 
 .header__primary-btn {
-    font-size: var(--primary-btn-label-font);
-    color : var(--primary-btn-label-color);
-    padding : var(--primary-btn-padding);
-    border: var(--primary-btn-border);
-    border-radius: var(--primary-btn-border-radius);
-    font-weight: 600;
+  font-size: var(--primary-btn-label-font);
+  color: var(--primary-btn-label-color);
+  padding: var(--primary-btn-padding);
+  border: var(--primary-btn-border);
+  border-radius: var(--primary-btn-border-radius);
+  font-weight: 600;
 }
 
 .button__label {
-    font-size: var(--font-400);
-    font-weight: 600;
-    position : relative;
-    cursor: pointer;
+  font-size: var(--font-400);
+  font-weight: 600;
+  position: relative;
+  cursor: pointer;
+  z-index: 99;
 }
 
 .button__label::after {
-    content : "";
-    position : absolute;
-    left : 0;
-    bottom : -2px;
-    width : 100%;
-    height : 1px;
-    background-color: currentColor;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition : transform ease-in 250ms;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background-color: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform ease-in 250ms;
 }
 
 .button__label:hover::after {
-    transform : scaleX(0.8);
+  transform: scaleX(0.8);
+}
+
+.header__button-wrapper {
+  display: flex;
+  gap: 0.5em;
+}
+
+.play__store-button__wrapper {
+  position: relative;
+}
+
+.app__store-button__wrapper {
+    position: relative;
+  }
+
+@media (min-width: 990px) {
+  .play__store-button__wrapper::after {
+    content: "Download for Android";
+    white-space: nowrap;
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    color : #ffffff;
+    font-size: 0.8em;
+    bottom: -2.5em;
+    left: -8em;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+  }
+
+  .play__store-button__wrapper:hover::after {
+    display: block;
+  }
+
+  .app__store-button__wrapper::after {
+    content: "Download for IOS";
+    white-space: nowrap;
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    color : #ffffff;
+    font-size: 0.8em;
+    bottom: -2.5em;
+    left: -8em;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+  }
+
+  .app__store-button__wrapper:hover::after {
+    display: block;
+  }
 }
