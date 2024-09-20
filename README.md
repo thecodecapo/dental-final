@@ -7,14 +7,30 @@ This website was developed using React framework, and all the media files were b
 Here are the steps to run this project in local environment
 
 Step 1 : Clone this repo using "git clone repo_url" in your terminal
-Step 2 : Run command ```npm install``` to install all the dependencies 
-Step 3 : Run command ```npm start``` to run the website in local environment
+
+Step 2 : Run following command to install all the dependencies 
+```bash
+npm install
+```
+
+Step 3 : Command to run the website in local environment
+
+```bash
+npm start
+```
 
 Guide to Deploy the website on to the server
+
 [ assuming you have successfully installed dependencies, if not follow above steps ]
 
-Step 1 : Run command ```npm run build``` to generate build
+Step 1 : Command to generate build
+
+```bash
+npm run build
+```
+
 Step 2 : Login to your server, here our case it's a vps server [Nginx](https://nginx.org/en/) running on Linux 
+
 Step 3 : Use to following command to change directory to website [drts dental] root directory
 
 ```bash
