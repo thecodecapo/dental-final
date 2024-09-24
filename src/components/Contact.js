@@ -23,7 +23,7 @@ function Contact() {
               At <b> Dr. T S Dental Care </b>
             </label>
               <p className="about__content">
-                we offer world-class dental services with a personal touch. Led
+                We offer world-class dental services with a personal touch. Led
                 by our highly experienced dental specialists—Prosthodontist and
                 a Micro-Endodontist—our clinic is committed to delivering
                 top-notch dental care that transforms smiles and improves

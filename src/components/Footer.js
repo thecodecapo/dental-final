@@ -7,8 +7,9 @@ function Footer() {
 
   return (
     <footer className="footer">
-      <div className="footer__outer-wrapper container__fit py-[.6em]">
-         <div className="footer__top-wrapper">
+      <div className="footer__outer-wrapper container__fit py-[.6em] mt-10">
+        <div className="bg-black rounded-[.9em] container__fit py-[.6em]">
+         <div className="footer__top-wrapper grid grid-cols-1 t:grid-cols-3 gap-0 t:gap-10 text-white">
         <div className="footer__contact-address-wrapper py-[1em]">
           <label className="footer__menu-item font-medium">Contact us</label>
           <div className="py-[1em] address-container">
@@ -25,8 +26,18 @@ function Footer() {
             </p>
           </div>
         </div>
+        <div className="footer__menu-container py-[1em]">
+            <ul className="footer__menu-wrapper menu__text">
+              {/*   <a href="/"><li className="footer__menu-item">Our Dentists</li></a> */}
+              <a className="flex items-center gap-2" href="https://www.instagram.com/reel/CyGZVeyvQJB/?igsh=cTFmNXNkY2FhOXFz" target="_blank" rel="noreferrer">
+                <img width={20} src="https://ik.imagekit.io/gunadev/Dental/instagram.png?updatedAt=1727199754763" alt="instagram"/>
+                <li className="footer__menu-item">Reviews</li>
+              </a>
+            </ul>
+          </div>
         <div className="footer__app-link-wrapper">
           <label className="base__text">Available on</label>
+          <div className="flex items-center gap-4">
           <a href={APKUrl}>
             <img
               src="https://ik.imagekit.io/gunadev/Dental/playbutton.png?updatedAt=1722407761844"
@@ -41,20 +52,14 @@ function Footer() {
               className="play__button"
             />
           </a>
-        </div>
-        </div>
-        <div className="footer__main-wrapper">
-          <div className="footer__menu-container">
-            <ul className="footer__menu-wrapper menu__text">
-              {/*   <a href="/"><li className="footer__menu-item">Our Dentists</li></a> */}
-              <a href="https://www.instagram.com/reel/CyGZVeyvQJB/?igsh=cTFmNXNkY2FhOXFz" target="_blank" rel="noreferrer">
-                <li className="footer__menu-item">Reviews</li>
-              </a>
-            </ul>
           </div>
+        </div>
+        </div>
+        <div className="footer__main-wrapper text-white">
           <div className="footer__copyright-wrapper">
             <label className="copyright__label">TS Dental Care 2024.</label>
           </div>
+        </div>
         </div>
       </div>
     </footer>

@@ -10,7 +10,10 @@ function Header() {
     return (
         <header className="header">
            <div className="header__outer-wrapper container__fit flex justify-between items-center py-[.6em]">
-                <div className="header__logo-wrapper">
+                <div className="header__logo-wrapper hidden xl:block">
+                    <img src={logo} alt="logo" width={130} height={130} />
+                </div>
+                <div className="header__logo-wrapper block xl:hidden">
                     <img src={logo} alt="logo" width={100} height={100} />
                 </div>
                 <div className="header__button-wrapper">

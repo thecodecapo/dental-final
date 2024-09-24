@@ -41,7 +41,8 @@
 }
 
 .header__button-wrapper {
-  display: flex;
+  display: none;
+  /* display: flex; */
   gap: 0.5em;
 }
 
