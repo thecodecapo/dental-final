@@ -9,7 +9,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer__outer-wrapper container__fit py-[.6em] mt-10">
         <div className="bg-black rounded-[.9em] container__fit py-[.6em]">
-         <div className="footer__top-wrapper grid grid-cols-1 t:grid-cols-3 gap-0 t:gap-10 text-white">
+         <div className="footer__top-wrapper grid grid-cols-1 t:grid-cols-2 gap-0 t:gap-10 text-white">
         <div className="footer__contact-address-wrapper py-[1em]">
           <label className="footer__menu-item font-medium">Contact us</label>
           <div className="py-[1em] address-container">
@@ -27,7 +27,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer__menu-container py-[1em]">
-            <ul className="footer__menu-wrapper menu__text">
+            <ul className="footer__menu-wrapper menu__text pb-4">
               {/*   <a href="/"><li className="footer__menu-item">Our Dentists</li></a> */}
               <a className="flex items-center gap-2" href="https://www.instagram.com/reel/CyGZVeyvQJB/?igsh=cTFmNXNkY2FhOXFz" target="_blank" rel="noreferrer">
                 <img width={20} src="https://ik.imagekit.io/gunadev/Dental/instagram.png?updatedAt=1727199754763" alt="instagram"/>

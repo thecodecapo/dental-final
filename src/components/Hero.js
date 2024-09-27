@@ -24,7 +24,7 @@ function Hero() {
                 <Reveal className="flex-grow" delay={0.55}>
                 <div className="content__outer-wrapper wrapper__border h-full hero__bottom-container flex flex-col justify-between">
                     <div className="hero__top-wrapper p-[1.5em]">
-                        <label className="weight-500 base__text">Where Your Smile Meets<br /> Precision and Compasion</label>
+                        <label className="weight-500 base__text">Where Your Smile Meets<br /> Precision and Compassion</label>
                     </div>
                     <Reveal delay={0.65}>
                     <div className="hero__bottom-wrapper p-[1.5em] grid grid-cols-1 sm:grid-cols-2">

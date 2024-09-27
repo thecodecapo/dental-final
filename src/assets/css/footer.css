@@ -12,7 +12,7 @@
 
 .footer__app-link-wrapper {
     padding : 1em 0;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: start;
    /* align-items: center; */
@@ -35,7 +35,7 @@
     display : flex;
     gap : 4px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: end;
 }
 
 .footer__copyright-wrapper {
@@ -87,6 +87,10 @@
 }
 
 @media (max-width : 990px) {
+    .footer__menu-wrapper {
+        justify-content: start;
+    }
+    
 
     .footer__top-wrapper {
      /*   flex-direction : column;
