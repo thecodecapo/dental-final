@@ -30,7 +30,7 @@ function Footer() {
             <ul className="footer__menu-wrapper menu__text pb-4">
               {/*   <a href="/"><li className="footer__menu-item">Our Dentists</li></a> */}
               <a className="flex items-center gap-2" href="https://www.instagram.com/reel/CyGZVeyvQJB/?igsh=cTFmNXNkY2FhOXFz" target="_blank" rel="noreferrer">
-                <img width={20} src="https://ik.imagekit.io/gunadev/Dental/instagram.png?updatedAt=1727199754763" alt="instagram"/>
+                <img width={25} src="https://ik.imagekit.io/gunadev/Dental/instagram%20(1).png?updatedAt=1727715972452" alt="instagram"/>
                 <li className="footer__menu-item">Reviews</li>
               </a>
             </ul>
