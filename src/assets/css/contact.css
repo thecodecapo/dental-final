@@ -112,7 +112,7 @@
     width : 150px;
     height : 150px;
     border-radius: 50%;
-   background-size: 10em;
+   background-size: cover;
    background-position: top center;
    background-repeat: no-repeat;
    background-color: #ffffff;

@@ -22,6 +22,9 @@ function Footer() {
               <span className="font-medium">Phone </span>: +91 9023606160
             </p>
             <p className="">
+              <span className="font-medium">Email </span>: info@drtsdentalcare.com
+            </p>
+            <p className="">
               <span className="font-medium">Instagram </span>: drsujal_tsdental
             </p>
           </div>
