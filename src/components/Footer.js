@@ -13,19 +13,19 @@ function Footer() {
         <div className="footer__contact-address-wrapper py-[1em]">
           <label className="footer__menu-item font-medium">Contact us</label>
           <div className="py-[1em] address-container">
-            <p className="">
-              <span className="font-medium">Address </span>: 203, Radhasaomi
+            <p className="flex items-start">
+              <img className="mr-2" width={20} src="https://ik.imagekit.io/gunadev/Dental/home.png?updatedAt=1728135655866" alt="decoration" /><span className=""> <span className="font-medium ">Address </span>: 203, Radhasaomi
               sukun Near APC circle, New, Sardar Patel Rd, Rajmarg, Anand,
-              Gujarat 388001
+              Gujarat 388001</span>
             </p>
-            <p className="">
-              <span className="font-medium">Phone </span>: +91 9023606160
+            <p className="flex items-start">
+            <img className="mr-2" width={20} src="https://ik.imagekit.io/gunadev/Dental/phone-call.png?updatedAt=1728135655919" alt="decoration" /> <span className=""> <span className="font-medium">Phone </span>: +91 9023606160</span>
             </p>
-            <p className="">
-              <span className="font-medium">Email </span>: info@drtsdentalcare.com
+            <p className="flex items-start">
+            <img className="mr-2" width={20} src="https://ik.imagekit.io/gunadev/Dental/mail.png?updatedAt=1728135655937" alt="decoration" /> <span className=""> <span className="font-medium">Email </span>: info@drtsdentalcare.com</span>
             </p>
-            <p className="">
-              <span className="font-medium">Instagram </span>: drsujal_tsdental
+            <p className="flex items-start">
+            <img className="mr-2" width={20} src="https://ik.imagekit.io/gunadev/Dental/instagram%20(1).png?updatedAt=1728135656347" alt="decoration" /> <span className="">  <span className="font-medium">Instagram </span>: drsujal_tsdental</span>
             </p>
           </div>
         </div>
